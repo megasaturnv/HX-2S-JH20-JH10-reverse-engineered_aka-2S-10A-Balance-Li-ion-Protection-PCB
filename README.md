@@ -6,5 +6,6 @@
 ## Components:
 ![HX-2S-JH20 - Components](docs/HX-2S-JH20_Components.jpg)
 
-## Kicad Eeschema schematic
-### In progress
+## Kicad Eeschema Schematic
+### Work in Progress
+[HX-2S-JH20 PDF](docs/HX_2S_JH20.pdf)
