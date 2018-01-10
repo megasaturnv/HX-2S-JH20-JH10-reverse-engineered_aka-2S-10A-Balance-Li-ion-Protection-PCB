@@ -3,5 +3,8 @@
 ## Circuit trace:
 ![HX-2S-JH20 - Circuit trace](docs/HX-2S-JH20_Circuit-trace.jpg)
 
-## Circuit trace:
+## Components:
 ![HX-2S-JH20 - Components](docs/HX-2S-JH20_Components.jpg)
+
+## Kicad Eeschema schematic
+### In progress
