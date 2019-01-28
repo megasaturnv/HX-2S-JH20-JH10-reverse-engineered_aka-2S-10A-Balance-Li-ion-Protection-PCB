@@ -11,7 +11,9 @@ The circuit is based on the HYCON Technology Corp. HY2120-CB battery protection 
 http://www.hycontek.com/wp-content/uploads/DS-HY2120_EN.pdf (marking: 20CB)
 https://datasheet.lcsc.com/szlcsc/HY2213-BB3A_C113632.pdf (marking: BB3A)
 
-These provide considerably more information about the board's functions than the description published on eBay and AliExpress listings.
+These provide considerably more information about the board's functions than the description published on eBay and AliExpress listings. Notably, the balancing action will not start until safe voltage threshold (4.2±0.025V) for either lithium cell has already been reached. This behavior was also verified on test bench. Then, since the balance MOSFETs can only discharge the cells at I = 4.2V/62ohm = 68mA, it is very likely that cell voltage will only keep climbing during charging, which could make your batteries blow up.
+
+Eventually, the HY2120-CB should cut turn off a protection MOSFET at 4.28±0.025V (I have not actually tested this).
 
 The N-channel MOSFETs driven by the balancers appear to be HY2213 by H&M semiconductor, datasheet: https://www.mikrocontroller.net/attachment/212878/HM2302A.PDF (marking: A2SHB)
 
